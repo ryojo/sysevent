@@ -8,16 +8,18 @@
 - Banco de Dados: MySql
 
 ### Versão do EventSys
-	Atualmente está na 1.0.0
+	Atualmente na 1.0.0
 
 ### Dados do Autor
 
 - Autor: Juan Cleiton
-- Formação: Sistemas de Informação (2016-2019, 4 anos) UNESA
-- Função no Projeto: Desenvolvedor Full Stack
-	<p>
-		<a href="https://linkedin.com/in/juancleiton30">linkedin</a> |
-		<a href="https://www.facebook.com/juancleiton30"> Facebook</a> |
-		<a href="https://twitter.com/juancleiton30"> Twitter</a> |
-		<a href="https://www.instagram.com/juan_cleiton30/"> Instagram </a>
-	</p>
+- Formação: Sistemas de Informação ( 2016-2019, 4 anos ) UNESA
+- Atuando no projeto como: Desenvolvedor Full Stack
+
+> **Redes Sociais:**
+<p>
+	<a href="https://linkedin.com/in/juancleiton30" target="_blank"> linkedin</a> |
+	<a href="https://www.facebook.com/juancleiton30" target="_blank"> Facebook</a> |
+	<a href="https://twitter.com/juancleiton30" target="_blank"> Twitter</a> |
+	<a href="https://www.instagram.com/juan_cleiton30/" target="_blank"> Instagram </a>
+</p>
