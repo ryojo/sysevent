@@ -16,7 +16,7 @@
 - Formação: Sistemas de Informação ( 2016-2019, 4 anos ) UNESA
 - Atuando no projeto como: Desenvolvedor Full Stack
 
-> **Redes Sociais:**
+> Redes Sociais:
 <p>
 	<a href="https://linkedin.com/in/juancleiton30" target="_blank"> linkedin</a> |
 	<a href="https://www.facebook.com/juancleiton30" target="_blank"> Facebook</a> |
