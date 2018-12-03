@@ -7,8 +7,12 @@
 - Linguagens Utilizadas: PHP, HTML5, CSS3, JAVASCRIPT
 - Banco de Dados: MySql
 
+<<<<<<< HEAD
 ### Versão do EventSys
 	Atualmente está na 1.0.0
+=======
+	VERSÃO ATUAL 1.0.0
+>>>>>>> 253ea36150882e1e0a8faa7543359ca6da3897c5
 
 ### Dados do Autor
 
