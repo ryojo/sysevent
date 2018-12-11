@@ -11,10 +11,11 @@
 	background-image: url(../../res/imgs/fundo-header.jpg);
 }
 .section-box .tagline{
+	margin-top: 10px;
 	font-size: 22px;
 }
 .section-box .row-btn{
-	margin-top: 30px;
+	margin-top: 40px;
 	width: 100%;
 }
 .row-btn .btn-destaque{
@@ -34,12 +35,6 @@
 	max-width: 960px;
 	width: 90%;
 	margin: 0 auto;
-}
-.beneficios-conteudo-header{
-	font-size: 18px;
-}
-.beneficios-conteudo-bloco{
-	margin-top: 20px;
 }
 .conteudo-bloco-item{
 	float: left;
