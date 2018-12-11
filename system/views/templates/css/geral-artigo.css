@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* RESET
+ *-----------------------------*/
+body{
+	background: #fff;
+}
+.article h1{font-size: 26px}
+.article h2{font-size: 22px;}
+.article p{font-size: 18px; line-height: 1.5;}
+.content-article{
+	max-width: 700px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* SEÇÃO DE DESCRIÇÃO DO ARTIGO
+ *-----------------------------*/
+ .article{
+ 	padding: 30px 0;
+ }
+.article-bloco:not(:first-of-type){
+	padding-top: 30px;
+}
+.article-bloco h2{
+	padding-bottom: 15px;
+}

@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* IMPORTs
+ *--------------------------------*/
+@import url(geral-default.css);
+
+
+/* SEÇÃO DO BANNER CADASTRE-SE
+ *--------------------------------*/
+.section-box{
+	background-image: url(../../res/imgs/fundo-header.jpg);
+}
+.section-box .tagline{
+	font-size: 22px;
+}
+.section-box .row-btn{
+	margin-top: 30px;
+	width: 100%;
+}
+.row-btn .btn-destaque{
+	font-size: 20px;
+}
+
+
+/* SEÇÃO DE BENEFÍCIOS
+ *--------------------------------*/
+.beneficios{
+	background: #ecf0f1;
+	padding: 30px 0;
+	color: #2f3542;
+	text-align: center;
+}
+.beneficios-conteudo{
+	max-width: 960px;
+	width: 90%;
+	margin: 0 auto;
+}
+.beneficios-conteudo-header{
+	font-size: 18px;
+}
+.beneficios-conteudo-bloco{
+	margin-top: 20px;
+}
+.conteudo-bloco-item{
+	float: left;
+	width: 49%;
+	margin-right: 2%;
+}
+.conteudo-bloco-item:nth-child(even){
+	margin-right: 0;
+}
+.conteudo-bloco-item .item-icon img{
+	width: 70px;
+	height: 70px;
+}
+
+
+
+/* BREACKPOINTS MÁXIMOS - MOBILE
+ *--------------------------------*/
+@media (max-width: 767.9px){
+	/*Seção de Benefícios*/
+	.conteudo-bloco-item:first-of-type,
+	.conteudo-bloco-item:nth-child(2){
+		margin-bottom: 5%;
+	}
+}
+
+
+
+/* BREACKPOINTS MÍNIMOS - DESKTOP
+ *--------------------------------*/
+ @media (min-width: 768px){
+	/*Seção de Benefícios*/
+	.conteudo-bloco-item:nth-child(even),
+	.conteudo-bloco-item{
+		float: left;
+		width: calc((100% - 12%) / 4);
+		margin-right: 4%;
+	}
+	.conteudo-bloco-item:last-of-type{
+		margin-right: 0;
+	}
+}

@@ -4,14 +4,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Início | SysEvent</title>
-	<link rel="stylesheet" type="text/css" href="www/css/index.css">
+	<link rel="stylesheet" type="text/css" href="views/templates/css/index.css">
 </head>
 <body>
 	<!-- Início BARRA MENU -->
 	<header class="header">
 		<div class="content">
 			<div class="logo fl-left">
-				<a href="#">
+				<a href="index.html">
 					<span style="color:#f39c12">Sys</span><span style="color:#fff">Event</span>
 				</a>
 			</div>
@@ -27,17 +27,17 @@
 					</span>
 				</p>
 				<ul>
-					<li><a href="#">Início</a></li>
+					<li><a href="index.html" class="pagina-atual">Início</a></li>
 					<li><a href="#">Porque usar</a></li>
-					<li><a href="#">Sobre</a></li>
-					<li><a href="#" class="btn-destaque">Entrar</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="views/users/login.php" class="btn-destaque">Entrar</a></li>
 				</ul>
 			</nav>
 		</div>		
 	</header>
 	<!-- Fim BARRA MENU -->
 
-	<!-- Início CADASTRE-SE -->
+	<!-- Início BANNER CADASTRE-SE -->
 	<section class="section">
 		<div class="section-box">
 			<header>
@@ -45,13 +45,13 @@
 				<p class="tagline">O melhor gerenciador de eventos já criado!</p>
 			</header>	
 			<div class="row-btn">
-				<button class="btn-destaque">Cadastre-se</button>
+				<a href="views/users/cadastro.php" class="btn-destaque">Cadastre-se</a>
 			</div>
 		</div>		
 	</section>
-	<!-- Fim CADASTRE-SE -->
+	<!-- Fim BANNER CADASTRE-SE -->
 
-	<!-- Início BENEFÍCIOS -->
+	<!-- Início DESCRIÇÃO DO PROJETO -->
 	<section class="section beneficios">
 		<div class="beneficios-conteudo">
 			<header class="beneficios-conteudo-header">
@@ -61,25 +61,25 @@
 			<div class="beneficios-conteudo-bloco">
 				<div class="conteudo-bloco-item">
 					<div class="item-icon">
-						<img src="www/icons/bn-tempo.png"/>
+						<img src="views/res/icons/bn-tempo.png"/>
 					</div>
 					<p class="item-descricao">Rapidez no Serviço</p>
 				</div>
 				<div class="conteudo-bloco-item">
 					<div class="item-icon">
-						<img src="www/icons/bn-facilidade.png"/>
+						<img src="views/res/icons/bn-facilidade.png"/>
 					</div>
 					<p class="item-descricao">Facilidade ao Usar</p>
 				</div>
 				<div class="conteudo-bloco-item">
 					<div class="item-icon">
-						<img src="www/icons/bn-dinheiro.png"/>
+						<img src="views/res/icons/bn-dinheiro.png"/>
 					</div>
 					<p class="item-descricao">Totalmente Gratuita</p>
 				</div>
 				<div class="conteudo-bloco-item">
 					<div class="item-icon">
-						<img src="www/icons/bn-online.png"/>
+						<img src="views/res/icons/bn-online.png"/>
 					</div>
 					<p class="item-descricao">Acessível de qualquer lugar</p>
 				</div>
@@ -124,6 +124,6 @@
 	<!-- Fim FOOTER -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="www/js/index.js"></script>
+	<script src="views/templates/js/geral-default.js"></script>
 </body>
 </html>

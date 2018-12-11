@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/* RESET
+ *-----------------------------*/
+body{
+	background: #f1f2f6;
+}
+
+
+/* GERAIS
+ *-----------------------------*/
+.row{
+	float: none;
+	padding: 5px 0;
+}
+
+
+/* BARRA DE MENU
+ *--------------------------------*/
+.header{
+	background: #2c3e50;
+	padding: 15px 0 20px 0;
+}
+
+
+/* SEÇÃO COM BLOCO
+ *-----------------------------*/
+.bloco{
+	padding: 100px 0 10px 0;
+	background: #f1f2f6;
+}
+.content-bloco{
+	max-width: 500px;
+	width: 90%;
+	background: #fff;
+	padding: 20px 70px;
+	margin: 0 auto;
+	-webkit-box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+	box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+.content-bloco-header{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.content-bloco-header h1{
+	font-size: 20px;
+}
+.form-input label,
+.form-input input{
+	display: block;
+	width: 100%;
+}
+.form-input input{
+	background-color: #f4f9fb;
+	padding: 10px;
+	margin: 5px 0 10px 0;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,.1);
+	box-shadow: 0 2px 1px rgba(0,0,0,.1);
+}
+.btn-submit{
+	padding-top: 15px;
+}
+
+
+/* FOOTER
+ *--------------------------------*/
+.footer{
+	background: #f1f2f6;
+	margin: 0;
+	padding-top: 10px;
+}
+.row.autorais{
+	border:none;
+	padding: 0;
+	color: rgba(0,0,0,.3);
+}
+
+
+
+/* BREACKPOINTS MÁXIMOS - MOBILE
+ *--------------------------------*/
+@media (max-width: 767.9px){
+	/*Seção Login*/
+	.content-bloco{
+		padding: 20px 40px;
+	}
+}
+
+
+
+/* BREACKPOINTS MÍNIMOS - DESKTOP
+ *--------------------------------*/
+ @media (min-width: 768px){
+ 	/*Barra Menu*/
+	.header .nav ul li:last-of-type{
+ 		margin-left: 50px;
+	}
+}
+
+
+
+/* CLASSES UTILITÁRIAS
+ *--------------------------------*/
+.btn-destaque{
+	padding: 15px 40px;
+	font-weight: bold;
+}

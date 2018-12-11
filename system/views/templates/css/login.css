@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* IMPORTs
+ *--------------------------------*/
+@import url(geral-default.css);
+@import url(geral-bloco.css);
+
+
+/* SEÇÃO DE LOGIN
+ *-----------------------------*/
+ .content-bloco{
+	padding: 50px 70px;
+}
+.recupera-senha{
+	padding-top: 0;
+}
+.recupera-senha a,
+.lk-cadastre-se a{
+	color: rgba(0,0,0,.5);
+}
+.recupera-senha a:hover,
+.lk-cadastre-se a:hover{
+	color: #f39c12;
+}
+.lk-cadastre-se{
+	margin-top: 10px;
+	padding-top: 20px;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
