@@ -30,6 +30,8 @@
 					<li><a href="../../index.html">Início</a></li>
 					<li><a href="#">Porque usar</a></li>
 					<li><a href="../../sobre.html">Sobre</a></li>
+					<li><a href="login.php" class="btn-destaque">Entrar</a></li>
+					<li><a href="cadastro.php">Cadastre-se</a></li>
 				</ul>
 			</nav>
 		</div>		
