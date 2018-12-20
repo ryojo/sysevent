@@ -5,75 +5,210 @@
 @import url(geral-default.css);
 
 
-/* SEÇÃO DO BANNER CADASTRE-SE
+/* SEÇÃO DO BANNER PRINCIPAL
  *--------------------------------*/
-.section-box{
-	background-image: url(../../res/imgs/fundo-header.jpg);
+.section-box {
+	float: left;
+	width: 100%;
+	background-color: #130f40;
 }
-.section-box .tagline{
+
+.box-content {
+	padding: 30px 20px;
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.section-box .tagline {
 	margin-top: 10px;
 	font-size: 22px;
 }
-.section-box .row-btn{
+
+.section-box .row-btn {
 	margin-top: 40px;
 	width: 100%;
 }
-.row-btn .btn-destaque{
+
+.row-btn .btn-destaque {
 	font-size: 20px;
 }
 
+.box-content-info{
+	margin-top: 40px;
+	padding: 10px;
+	background-color: rgba(142, 68, 173,.1);
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.box-img {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.box-img-banner {
+	overflow: hidden;
+	max-width: 960px;
+	max-height: 960px;
+	padding: 0 20px 0 20px;
+}
+
+.box-img-banner,
+.box-img-banner img {
+	width: 100%;
+	height: 100%;
+}
 
 /* SEÇÃO DE BENEFÍCIOS
  *--------------------------------*/
-.beneficios{
-	background: #ecf0f1;
-	padding: 30px 0;
-	color: #2f3542;
+.beneficios {
+	background: #fff;
+	color: #222f3e;
 	text-align: center;
 }
-.beneficios-conteudo{
+
+.beneficios-conteudo {
 	max-width: 960px;
 	width: 90%;
 	margin: 0 auto;
 }
-.conteudo-bloco-item{
+
+.conteudo-bloco-item {
 	float: left;
-	width: 49%;
-	margin-right: 2%;
+	width: 50%;
+	padding: 40px 20px;
 }
-.conteudo-bloco-item:nth-child(even){
+
+.conteudo-bloco-item:nth-child(even) {
 	margin-right: 0;
 }
-.conteudo-bloco-item .item-icon img{
+
+.conteudo-bloco-item .item-icon img {
 	width: 70px;
 	height: 70px;
 }
 
 
+/* COMENTÁRIOS
+-------------------------------------*/
+.comentarios {
+	color: #222f3e;
+	background-color: rgba(236, 240, 241,.4);
+}
+
+.comentarios-article {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	padding: 40px 100px;
+	margin-bottom: 0;
+}
+
+.comentarios-article h1 {
+	font-size: 16px;
+	font-weight: normal;
+	padding-left: 12px;
+	margin-top: 15px;
+	border-left: 5px solid rgba(243, 156, 18,.5);
+}
+
+.comentarios-article .image {
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+	width: 83px;
+	height: 83px;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.comentarios-article p {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 83px;
+}
+
+.comentarios-article p .name {
+	color: #f39c12;
+	font-weight: bold;
+}
+
 
 /* BREACKPOINTS MÁXIMOS - MOBILE
  *--------------------------------*/
-@media (max-width: 767.9px){
+@media (max-width: 767.9px) {
+
 	/*Seção de Benefícios*/
-	.conteudo-bloco-item:first-of-type,
-	.conteudo-bloco-item:nth-child(2){
-		margin-bottom: 5%;
+	.conteudo-bloco-item {
+		width: 50%;
+		padding: 0 10px 10px 0;
+	}
+
+	.conteudo-bloco-item div.item {
+		padding: 20px 30px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	/* Seção do Banner Principal */
+	.box-content {
+		max-width: 100%;
 	}
 }
 
 
-
 /* BREACKPOINTS MÍNIMOS - DESKTOP
  *--------------------------------*/
- @media (min-width: 768px){
+@media (min-width: 768px) {
+
 	/*Seção de Benefícios*/
-	.conteudo-bloco-item:nth-child(even),
-	.conteudo-bloco-item{
+	.conteudo-bloco-item {
 		float: left;
-		width: calc((100% - 12%) / 4);
-		margin-right: 4%;
-	}
-	.conteudo-bloco-item:last-of-type{
+		width: calc(100% / 4);
 		margin-right: 0;
+	}
+
+	.conteudo-bloco-item:hover {
+		background-color: #ffda79;
+		color: #d35400;
+		transition: all .4s ease-in-out;
+		-webkit-transition: all .4s ease-in-out;
+		-moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		-o-transition: all .4s ease-in-out;
+	}
+
+	/*comentarios*/
+	.comentarios-article{
+		width: calc((100% - 8%) / 3);
+		margin-right: 4%;
+		padding: 90px 20px;
+	}
+	.comentarios-article:last-of-type{
+		margin-right: 0;
+	}
+}
+
+@media (min-width: 900px) {
+
+	/* Seção do Banner Principal */
+	.box-content {
+		width: 35%;
+		margin: auto;
+	}
+
+	.box-content,
+	.box-img {
+		float: left;
+	}
+
+	.box-img {
+		width: 65%;
 	}
 }

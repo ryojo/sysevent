@@ -10,7 +10,7 @@ $(function () {
 
 	//Aparecer Fundo Barra Menu - Mobile e Desktop
 	$(window).scroll(function() {
-		if ($(this).scrollTop() > 50) {
+		if ($(this).scrollTop() > 30) {
 			$('.header').addClass('fixed');
 		}else{
 			$('.header').removeClass('fixed');

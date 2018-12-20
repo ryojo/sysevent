@@ -5,6 +5,7 @@
 body{
 	background: #f1f2f6;
 }
+h1{font-weight: 500;}
 
 
 /* GERAIS
@@ -13,12 +14,16 @@ body{
 	float: none;
 	padding: 5px 0;
 }
+footer .row{
+	float: left;
+	padding-top: 15px;
+}
 
 
 /* BARRA DE MENU
  *--------------------------------*/
 .header{
-	background: #2c3e50;
+	background:#130f40;
 	padding: 15px 0 20px 0;
 }
 .header .content .nav ul li:nth-child(1n+4){
@@ -29,7 +34,7 @@ body{
 /* SEÇÃO COM BLOCO
  *-----------------------------*/
 .bloco{
-	padding: 100px 0 10px 0;
+	padding: 100px 0 30px 0;
 	background: #f1f2f6;
 }
 .content-bloco{
@@ -55,7 +60,7 @@ body{
 	width: 100%;
 }
 .form-input input{
-	background-color: #f4f9fb;
+	background-color: rgba(243, 156, 18,.2); /* #f4f9fb;*/
 	padding: 10px;
 	margin: 5px 0 10px 0;
 	-webkit-border-radius: 5px;
@@ -66,21 +71,6 @@ body{
 .btn-submit{
 	padding-top: 15px;
 }
-
-
-/* FOOTER
- *--------------------------------*/
-.footer{
-	background: #f1f2f6;
-	margin: 0;
-	padding-top: 10px;
-}
-.row.autorais{
-	border:none;
-	padding: 0;
-	color: rgba(0,0,0,.3);
-}
-
 
 
 /* BREACKPOINTS MÁXIMOS - MOBILE

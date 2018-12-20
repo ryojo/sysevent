@@ -5,17 +5,34 @@
 body{
 	background: #fff;
 }
-.article h1{font-size: 26px}
-.article h2{font-size: 22px;}
-.article p{font-size: 18px; line-height: 1.5;}
+h1{font-size: 30px}
+.article h2{font-size: 22px; font-family: Comfortaa}
+.article h3{font-size: 18px;}
+.article p{font-size: 18px; line-height: 2;}
 .content-article{
 	max-width: 700px;
 	width: 90%;
 	margin: 0 auto;
 }
 
-/* SEÇÃO DE DESCRIÇÃO DO ARTIGO
+
+/* BANNER PRINCIPAL
  *-----------------------------*/
+ .banner-principal{
+	padding: 50px 30px;
+	line-height: 1.5;
+ }
+ .banner-principal h1{
+	font-size: 30px
+}
+
+
+
+/* DESCRIÇÃO DO ARTIGO DEV
+ *-----------------------------*/
+ .section{
+	 color: #222f3e;
+ }
  .article{
  	padding: 30px 0;
  }
@@ -24,4 +41,7 @@ body{
 }
 .article-bloco h2{
 	padding-bottom: 15px;
+}
+.article-bloco ul li{
+	margin-bottom: 15px;
 }

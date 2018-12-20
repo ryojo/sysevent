@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cadastre-se | SysEvent</title>
 	<link rel="stylesheet" type="text/css" href="../templates/css/cadastro.css">
 </head>
+
 <body>
 	<!-- Início BARRA MENU -->
 	<header class="header">
@@ -27,14 +29,14 @@
 					</span>
 				</p>
 				<ul>
-					<li><a href="../../index.html">Início</a></li>
-					<li><a href="#">Porque usar</a></li>
-					<li><a href="../../sobre.html">Sobre</a></li>
-					<li><a href="login.php" class="btn-destaque">Entrar</a></li>
-					<li><a href="cadastro.php">Cadastre-se</a></li>
+					<li><a href="#">Como usar</a></li>
+					<li><a href="../../devs.html">Devs</a></li>
+					<li><a href="#">Perguntas frequentes</a></li>
+					<li><a href="login.php">Entrar</a></li>
+					<li><a href="cadastro.php" class="btn-destaque">Cadastre-se</a></li>
 				</ul>
 			</nav>
-		</div>		
+		</div>
 	</header>
 	<!-- Fim BARRA MENU -->
 
@@ -59,14 +61,14 @@
 						<input type="text" name="senha" id="senha" required tabindex="3">
 					</div>
 					<div class="col-2 form-input">
-						<label for="cf-senha">Confirme a sua senha</label>
+						<label for="cf-senha">Confirmar senha</label>
 						<input type="text" name="cf-senha" id="cf-senha" required tabindex="4">
 					</div>
 				</div>
 				<div class="row texto-center termos">
 					<input type="checkbox" name="termo-uso" required tabindex="5">
-					<small>Eu concordo com o 
-						<a href="#">Termo de Uso</a> e 
+					<small>Eu concordo com o
+						<a href="#">Termo de Uso</a> e
 						<a href="#">Políticas de Privacidade</a>.
 					</small>
 				</div>
@@ -84,6 +86,25 @@
 	<!-- Início FOOTER -->
 	<footer class="footer">
 		<div class="content">
+			<div class="row text-center">
+				<div class="footer-col">
+					<h1>Contatos</h1>
+					<ul class="contatos">
+						<li>helper@sysevent.ga</li>
+						<li>suporte@sysevent.ga</li>
+						<li>0800 555 999</li>
+					</ul>
+				</div>
+
+				<div class="footer-col">
+					<h1>Redes Sociais</h1>
+					<ul class="sociais">
+						<li><a href="">Linked In</a></li>
+						<li><a href="">Github</a></li>
+						<li><a href="">Facebook</a></li>
+					</ul>
+				</div>
+			</div>
 			<div class="row autorais">
 				<small>SysEvent 2018 &copy Todos os direitos reservados.</small>
 			</div>
@@ -94,4 +115,5 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="../templates/js/geral-default.js"></script>
 </body>
+
 </html>
