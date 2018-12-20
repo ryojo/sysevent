@@ -253,6 +253,11 @@ nav ul li a.btn-destaque {
 		border-bottom: 1px solid rgba(0, 0, 0, .1);
 	}
 
+	/*Seção do Banner*/
+	.section-box {
+		padding-top: 80px;
+	}
+
 	/*footer*/
 	.footer h1{
 		font-size: 15px; 
