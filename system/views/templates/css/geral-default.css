@@ -190,16 +190,19 @@ nav ul li a.btn-destaque {
 .footer-col p {
 	line-height: 1.5;
 }
-.footer-col ul li{
+
+.footer-col ul li {
 	display: inline-block;
 }
+
 .footer-col .contatos li:not(:last-of-type),
 .footer-col .sociais li:not(:last-of-type) {
 	margin-right: 10px;
 	padding-right: 15px;
 	border-right: 1px solid rgba(255, 255, 255, .2);
 }
-.autorais{
+
+.autorais {
 	text-align: center;
 }
 
@@ -227,7 +230,7 @@ nav ul li a.btn-destaque {
 
 	.header .nav {
 		background: #fff;
-		width: 45%;
+		width: 60%;
 		height: 100%;
 		position: fixed;
 		padding: 15px;
@@ -244,11 +247,27 @@ nav ul li a.btn-destaque {
 	.header .nav ul li {
 		padding: 15px 5px;
 		font-size: 20px;
-		color: #2f3542;
-		border-bottom: 1px solid #ccc;
+		color: #222f3e;
+	}
+	.header .nav ul li:not(:last-of-type){
+		border-bottom: 1px solid rgba(0, 0, 0, .1);
+	}
+
+	/*footer*/
+	.footer h1{
+		font-size: 15px; 
+	}
+	.footer-col ul li{
+		font-size: 11px;
+		line-height: 1.5;
 	}
 }
 
+@media (max-width: 450px) {
+	.header .nav {
+		width: 75%;
+	}
+}
 
 
 /* BREACKPOINTS MÍNIMOS - DESKTOP
@@ -306,7 +325,7 @@ nav ul li a.btn-destaque {
 		float: right;
 	}
 
-	.autorais{
+	.autorais {
 		padding-top: 15px;
 		border-top: 1px solid rgba(255, 255, 255, .1);
 	}
@@ -315,9 +334,10 @@ nav ul li a.btn-destaque {
 @media (min-width: 900px) {
 
 	/*Barra Menu*/
-	.header .nav{
+	.header .nav {
 		font-size: 16px;
 	}
+
 	.header .nav ul li {
 		display: inline-block;
 		margin-left: 20px;
