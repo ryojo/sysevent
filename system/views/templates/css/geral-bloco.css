@@ -1,20 +1,29 @@
 @charset "utf-8";
 
+/* IMPORTs
+ *--------------------------------*/
+@import url(geral-default.css);
+
+
 /* RESET
  *-----------------------------*/
-body{
+body {
 	background: #f1f2f6;
 }
-h1{font-weight: 500;}
+
+h1 {
+	font-weight: 500;
+}
 
 
 /* GERAIS
  *-----------------------------*/
-.row{
+.row {
 	float: none;
 	padding: 5px 0;
 }
-footer .row{
+
+footer .row {
 	float: left;
 	padding-top: 15px;
 }
@@ -22,82 +31,144 @@ footer .row{
 
 /* BARRA DE MENU
  *--------------------------------*/
-.header{
-	background:#130f40;
+.header {
+	background: #130f40;
 	padding: 15px 0 20px 0;
 }
-.header .content .nav ul li:nth-child(1n+4){
+
+.header .content .nav ul li:nth-child(1n+4) {
 	display: none;
 }
 
 
-/* SEÇÃO COM BLOCO
+/* SEÇÃO DE BLOCO GERAL
  *-----------------------------*/
-.bloco{
+.bloco {
 	padding: 100px 0 30px 0;
 	background: #f1f2f6;
 }
-.content-bloco{
+
+.content-bloco {
 	max-width: 500px;
 	width: 90%;
 	background: #fff;
 	margin: 0 auto;
-	-webkit-box-shadow: 1px 1px 20px rgba(0,0,0,.1);
-	box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+	-webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, .1);
+	box-shadow: 1px 1px 20px rgba(0, 0, 0, .1);
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
 }
-.content-bloco-header{
+
+.content-bloco-header {
 	text-align: center;
 	padding-bottom: 20px;
 }
-.content-bloco-header h1{
+
+.content-bloco-header h1 {
 	font-size: 20px;
+	margin-bottom: 10px;
 }
+
+.content-bloco-header p {
+	color: rgba(0, 0, 0, .7);
+}
+
 .form-input label,
-.form-input input{
+.form-input input {
 	display: block;
 	width: 100%;
 }
-.form-input input{
-	background-color: rgba(243, 156, 18,.2); /* #f4f9fb;*/
+
+.form-input input {
+	background-color: rgba(243, 156, 18, .2);
+	/* #f4f9fb;*/
 	padding: 10px;
 	margin: 5px 0 10px 0;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,.1);
-	box-shadow: 0 2px 1px rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .1);
+	box-shadow: 0 2px 1px rgba(0, 0, 0, .1);
 }
-.btn-submit{
+
+.btn-submit {
 	padding-top: 15px;
+}
+
+/* Bloco de Login e Bloco de Cadastro
+ *------------------------------------*/
+.recupera-senha {
+	padding-top: 0;
+}
+
+.recupera-senha a,
+.lk-cadastre-se a,
+.lk-login a {
+	color: rgba(0, 0, 0, .5);
+}
+
+.recupera-senha a:hover,
+.lk-cadastre-se a:hover,
+.lk-login a:hover{
+	color: #f39c12;
+}
+
+.lk-cadastre-se {
+	margin-top: 10px;
+	padding-top: 20px;
+	border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.lk-login {
+	margin-top: 10px;
+	padding-top: 20px;
+	border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.row.termos {
+	padding: 10px 0;
+	font-size: 13px;
 }
 
 
 /* BREACKPOINTS MÁXIMOS - MOBILE
  *--------------------------------*/
-@media (max-width: 767.9px){
-	/*Seção Login*/
-	.content-bloco{
+@media (max-width: 767.9px) {
+
+	/*Bloco Geral*/
+	.content-bloco {
 		padding: 30px 40px;
 	}
 }
 
+@media (max-width: 450px) {
+
+	/*Bloco de Cadastro*/
+	.col-2 {
+		display: block;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.col-2:nth-child(2) {
+		padding-top: 10px;
+	}
+}
 
 
 /* BREACKPOINTS MÍNIMOS - DESKTOP
  *--------------------------------*/
- @media (min-width: 768px){
-	/*Seção Login*/
-	.content-bloco{
+@media (min-width: 768px) {
+
+	/*Bloco Geral*/
+	.content-bloco {
 		padding: 50px 70px;
 	}
 }
 
 
-
 /* CLASSES UTILITÁRIAS
  *--------------------------------*/
-.btn-destaque{
+.btn-destaque {
 	padding: 15px 40px;
 	font-weight: bold;
 }

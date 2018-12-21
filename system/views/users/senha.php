@@ -4,8 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Cadastre-se | SysEvent</title>
-	<link rel="stylesheet" type="text/css" href="../templates/css/geral-bloco.css">
+	<title>Recuperação de Senha</title>
+	<link rel="stylesheet" type="text/css" href="../templates/css/senha.css">
 </head>
 
 <body>
@@ -39,49 +39,32 @@
 	</header>
 	<!-- Fim BARRA MENU -->
 
-	<!-- Início BLOCO DE CADASTRO -->
+	<!-- Início BLOCO ESQUECI MINHA SENHA -->
 	<section class="section bloco">
 		<div class="content-bloco">
 			<header class="row content-bloco-header">
-				<h1>Faça seu cadastro</h1>
-				<p>Comece a usar agora o gerenciador de eventos que é a sua cara</p>
+				<h1>Esqueci minha senha</h1>
+				<p>Insira o e-mail cadastrado para receber instruções de como recuperar sua senha.</p>
 			</header>
 			<form class="row" action="" method="post">
 				<div class="row form-input">
-					<label for="nomecompleto">Nome completo</label>
-					<input type="text" name="nomecompleto" id="nomecompleto" required tabindex="1">
-				</div>
-				<div class="row form-input">
 					<label for="email">E-mail</label>
-					<input type="email" name="email" id="email" required tabindex="2">
-				</div>
-				<div class="row">
-					<div class="col-2 form-input">
-						<label for="senha">Senha</label>
-						<input type="text" name="senha" id="senha" required tabindex="3">
-					</div>
-					<div class="col-2 form-input">
-						<label for="c-senha">Confirmar senha</label>
-						<input type="text" name="c-senha" id="c-senha" required tabindex="4">
-					</div>
-				</div>
-				<div class="row texto-center termos">
-					<input type="checkbox" name="termo-uso" required tabindex="5">
-					<small>Eu concordo com o
-						<a href="../legal/termos-uso.html" target="_blank">Termos de Uso</a> e
-						<a href="../legal/privacidade.html" target="_blank">Políticas de Privacidade</a>.
-					</small>
+					<input type="email" name="email" id="email" required tabindex="1">
 				</div>
 				<div class="row texto-center btn-submit">
-					<button type="submit" class="btn-destaque" tabindex="6">Cadastrar</button>
+					<button type="submit" class="btn-destaque" tabindex="2">Recuperar senha</button>
 				</div>
 			</form>
 			<div class="row texto-center lk-login">
-				<a href="login.php" tabindex="7">Já tem uma conta? Faça login</a>
+				<a href="login.php" tabindex="7">Já sabe sua senha? Faça login</a>
+			</div>
+			<div class="row texto-center lk-cadastre-se">
+				<a href="cadastro.php" tabindex="5">Ainda não tem uma conta? Cadastre-se</a>
 			</div>
 		</div>
 	</section>
-	<!-- Fim BLOCO DE CADASTRO -->
+	<!-- Fim BLOCO BLOCO ESQUECI MINHA SENHA -->
+
 	<!-- Início FOOTER -->
 	<footer class="footer">
 		<div class="content-fluid">

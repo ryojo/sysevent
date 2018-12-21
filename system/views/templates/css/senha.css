@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* IMPORTs
+ *--------------------------------*/
+ @import url(geral-default.css);
+ @import url(geral-bloco.css);
+
+
+/* BLOCO ESQUECI MINHA SENHA
+----------------------------------*/
+ .lk-login{
+    margin-top: 25px;
+ }
+ .lk-cadastre-se{
+    margin-top: 10px;
+ }

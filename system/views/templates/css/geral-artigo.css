@@ -1,15 +1,35 @@
 @charset "utf-8";
 
+/* IMPORTs
+ *--------------------------------*/
+ @import url(geral-default.css);
+ 
+
 /* RESET
  *-----------------------------*/
-body{
+body {
 	background: #fff;
 }
-h1{font-size: 30px}
-.article h2{font-size: 22px; font-family: Comfortaa}
-.article h3{font-size: 18px;}
-.article p{font-size: 18px; line-height: 2;}
-.content-article{
+
+h1 {
+	font-size: 30px
+}
+
+.article h2 {
+	font-size: 22px;
+	font-family: Comfortaa
+}
+
+.article h3 {
+	font-size: 18px;
+}
+
+.article p {
+	font-size: 18px;
+	line-height: 2;
+}
+
+.content-article {
 	max-width: 700px;
 	width: 90%;
 	margin: 0 auto;
@@ -18,11 +38,16 @@ h1{font-size: 30px}
 
 /* BANNER PRINCIPAL
  *-----------------------------*/
- .banner-principal{
+.section-box {
+	background-color: #130f40;
+}
+
+.banner-principal {
 	padding: 50px 30px;
 	line-height: 1.5;
- }
- .banner-principal h1{
+}
+
+.banner-principal h1 {
 	font-size: 30px
 }
 
@@ -30,18 +55,42 @@ h1{font-size: 30px}
 
 /* DESCRIÇÃO DO ARTIGO DEV
  *-----------------------------*/
- .section{
-	 color: #222f3e;
- }
- .article{
- 	padding: 30px 0;
- }
-.article-bloco:not(:first-of-type){
+.section {
+	color: #222f3e;
+}
+
+.article {
+	padding: 30px 0 50px 0;
+}
+
+.article-bloco:nth-child(2) {
 	padding-top: 30px;
 }
-.article-bloco h2{
-	padding-bottom: 15px;
+
+.article-bloco:nth-child(1n+3) {
+	padding-top: 75px;
 }
-.article-bloco ul li{
+
+.article-bloco h2 {
+	margin-bottom: 25px;
+}
+
+.article-bloco ul:first-of-type,
+.article-bloco ul li:not(:last-of-type) {
 	margin-bottom: 15px;
+}
+
+.article-bloco ul.topicos {
+	padding: 20px 30px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.article-bloco p:not(:first-of-type) {
+	margin-top: 20px;
+	line-height: 2;
 }
