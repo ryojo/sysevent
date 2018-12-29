@@ -5,6 +5,7 @@ $(function () {
 		
 		e.preventDefault();
 		$('.nav').toggleClass('active');
+		$('#bg').toggleClass('bg');
 
 	});
 

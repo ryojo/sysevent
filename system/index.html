@@ -21,6 +21,9 @@
 			<a href="#" class="nav-toggle fl-right">
 				<img src="views/templates/icons/menu-mobile.png">
 			</a>
+
+			<div id="bg" class=""></div>
+
 			<nav class="nav">
 				<p class="fl-right">
 					<span class="nav-close">
@@ -30,7 +33,7 @@
 				<ul>
 					<li><a href="como-usar.html">Como usar</a></li>
 					<li><a href="devs.html">Devs</a></li>
-					<li><a href="#">Perguntas frequentes</a></li>
+					<li><a href="perguntas-frequentes.html">Perguntas frequentes</a></li>
 					<li><a href="views/users/login.php">Entrar</a></li>
 					<li><a href="views/users/cadastro.php" class="btn-destaque">Cadastre-se</a></li>
 				</ul>
@@ -55,10 +58,17 @@
 						<p>Grátis. Código aberto. Devs motivados. Atualizações constantes.</p>
 					</div>
 				</div>
+
 				<div class="box-img">
+					<div class="box-btn">
+						<button id="btn-slideshow-voltar" class="box-btn-mudar"><img src="views/templates/icons/voltar-1.png" alt=""></button>
+						<button id="btn-slideshow-proximo" class="box-btn-mudar"><img src="views/templates/icons/proximo-1.png" alt=""></button>
+					</div>
+					<div id="barra-intervalo">
+						<div id="temporizador"></div>
+					</div>
 					<div class="box-img-banner">
-						<img src="views/templates/banners/banner-tela-principal-sysevent.jpg" alt="Imagem da tela principal do software">
-						<p>Imagem ilustrativa! O sistema ainda está em produção.</p>
+						<img id="banner-principal" src="views/templates/banners/banner-1.jpg" alt="Imagem da tela principal do software">
 					</div>
 				</div>
 			</div>
@@ -179,6 +189,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="views/templates/js/geral-default.js"></script>
+	<script src="views/templates/js/index.js"></script>
 </body>
 
 </html>

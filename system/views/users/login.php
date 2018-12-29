@@ -13,24 +13,27 @@
 	<header class="header">
 		<div class="content">
 			<div class="logo fl-left">
-				<a href="index.html">
+				<a href="../../index.html">
 					<span style="color:#f39c12">Sys</span><span style="color:#fff">Event</span>
 				</a>
 			</div>
 
 			<a href="#" class="nav-toggle fl-right">
-				<img src="views/templates/icons/menu-mobile.png">
+				<img src="../templates/icons/menu-mobile.png">
 			</a>
+
+			<div id="bg" class=""></div>
+
 			<nav class="nav">
 				<p class="fl-right">
 					<span class="nav-close">
-						<img src="views/templates/icons/close.png">
+						<img src="../templates/icons/close.png">
 					</span>
 				</p>
 				<ul>
 					<li><a href="../../como-usar.html">Como usar</a></li>
 					<li><a href="../../devs.html">Devs</a></li>
-					<li><a href="#">Perguntas frequentes</a></li>
+					<li><a href="../../perguntas-frequentes.html">Perguntas frequentes</a></li>
 					<li><a href="login.php">Entrar</a></li>
 					<li><a href="cadastro.php" class="btn-destaque">Cadastre-se</a></li>
 				</ul>
@@ -49,7 +52,7 @@
 			<form class="row" action="" method="post">
 				<div class="row form-input">
 					<label for="email">E-mail</label>
-					<input type="email" name="email" id="email" required tabindex="1">
+					<input type="email" name="email" id="email" required autofocus tabindex="1">
 				</div>
 				<div class="row form-input">
 					<label for="senha">Senha</label>
